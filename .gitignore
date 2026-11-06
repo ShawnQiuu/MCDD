@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Datasets and checkpoints (not redistributed)
+data/
+datasets/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+# Experiment outputs
+runs/
+runs_*/
+outputs/
+logs/
+*.log
+events.out.tfevents.*
+
+# Environment and local configuration
+.env
+.env.*
+*.local.py
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp

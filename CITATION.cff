@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying article."
+title: "MCDD"
+abstract: >-
+  Official implementation of manifold-constrained dynamic decoupling (MCDD)
+  learning for unsupervised multiclass anomaly detection. A frozen encoder
+  provides multiscale normal features, the cross-hierarchy attentive bottleneck
+  builds a hybrid-scale base manifold, and a hybrid perception reasoning
+  decoder with noise-augmented feature expansion reconstructs normal patterns
+  for pixelwise anomaly localization.
+type: software
+authors:
+  - family-names: "Qiu"
+    given-names: "Shuang"
+  - family-names: "Zhao"
+    given-names: "Guangzhe"
+  - family-names: "Wang"
+    given-names: "Xueping"
+  - family-names: "Yan"
+    given-names: "Feihu"
+  - family-names: "Lin"
+    given-names: "Benwang"
+year: 2025
+license: MIT
+doi: 10.1109/TIM.2025.3602566
+repository-code: "https://github.com/ShawnQiuu/MCDD"
+keywords:
+  - unsupervised anomaly detection
+  - multiclass anomaly detection
+  - industrial visual inspection
+  - manifold learning
+  - feature reconstruction
+  - vision mamba
+preferred-citation:
+  type: article
+  title: "Manifold-Constrained Dynamic Decoupling Learning for Unsupervised Multiclass Anomaly Detection"
+  authors:
+    - family-names: "Qiu"
+      given-names: "Shuang"
+    - family-names: "Zhao"
+      given-names: "Guangzhe"
+    - family-names: "Wang"
+      given-names: "Xueping"
+    - family-names: "Yan"
+      given-names: "Feihu"
+    - family-names: "Lin"
+      given-names: "Benwang"
+  year: 2025
+  journal: "IEEE Transactions on Instrumentation and Measurement"
+  volume: 74
+  article-number: "2546611"
+  doi: "10.1109/TIM.2025.3602566"
